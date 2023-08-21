@@ -1,0 +1,13 @@
+@media  screen and (max-width:1336px) and (min-width:1000px) {
+    nav {
+        width: 912px;
+        grid-template-columns: 210px 445px 210px;
+    }
+
+
+    header .registrBlock  {
+        width: 912px;
+        grid-template-columns: repeat(4, 228px);
+
+    }
+}

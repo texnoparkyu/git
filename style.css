@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./fonts/Inter/static/Inter-Regular.ttf");
+}
+
+
+body {
+    margin: 0;
+}
+
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: url("./images/showback.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav .responsiveNavbar {
+    display: none;
+}
+
+
+nav .logo {
+    display: flex;
+}
+
+
+nav {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 310px 720px 210px;
+    align-items: center;
+    padding: 8px 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+}
+
+nav ul.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+
+
+nav ul.links li a {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91%;
+    text-decoration: none;
+}
+
+
+nav button.sale {
+    width: max-content;
+    justify-self: self-end;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0.5px solid #FFF;
+    background: transparent;
+
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91%;
+}
+
+
+
+/* Header start */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+header .information h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+header .information p.info {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .registrBlock {
+    width: 1240px;
+    display: grid;
+    grid-template-columns: 401px 250px 250px 300px;
+    align-items: center;
+    box-sizing: border-box;
+    height: 82px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #11002D;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91%;
+}
+
+
+
+header .registrBlock input {
+    height: 50px;
+    border: none;
+    margin: 0;
+    border-right: 2px solid #5200D9;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color: #11002D;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 91%;
+
+    color: #11002D;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header .registrBlock input:focus {
+    outline: none;
+}
+
+header .registrBlock .inson input {
+    border-right: none;
+    width: 20px;
+    padding: 0;
+}
+
+
+header .registrBlock input[type="date"]::before {
+    content: url("./images/calendar.svg");
+    padding-top: 5px;
+    margin-right: 12px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+    background: url("./images/logo.svg");
+}
+
+header .send {
+    padding: 24px 32px;
+    margin-top: 64px;
+    border-radius: 5px;
+    background: #5200D9;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 91%;
+}
+
+.informationBlock{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.informationBlock .block{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+.aniq img{
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    flex-direction: column;
+}
+
+ .polis{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.jad{
+    width: 295px;
+height: 295px;
+border-radius: 5px;
+background: rgba(82, 0, 217, 0.10);
+border: 1px solid red;
+}
+
+.jad p{
+    width: 219px;
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
+
+.jad img{
+    align-items: center;
+    justify-content: center;
+}
+
+.gan{
+    width: 295px;
+    height: 295px;
+    border-radius: 5px;
+    background: rgba(82, 0, 217, 0.10);
+    border: 1px solid red;
+}
+
+.yan{
+    width: 295px;
+    height: 295px;
+    border-radius: 5px;
+    background: rgba(82, 0, 217, 0.10);
+    border: 1px solid red;
+}
+
+.tor{
+    width: 295px;
+    height: 295px;
+    border-radius: 5px;
+    background: rgba(82, 0, 217, 0.10);
+    border: 1px solid red;
+}
+
+.polis p{
+    width: 219px;
+    align-items: center;
+}
+
+.showcase p{
+    color: #11002D;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: 91%; /* 58.24px */
+border: 1px solid purple;
+width: 1920px;
+}
+
+.grow{
+    display: flex;
+    gap: 20px;
+}
+
+.yangiliklar p{
+    color: #11002D;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 91%; /* 29.12px */
+}
+
+.jadval{
+    border: 1px solid red;
+    width: 295px;
+height: 220px;
+border-radius: 5px;
+background: rgba(83, 0, 217, 0.137);
+}
+
+.jadval p{
+    width: 255px;
+}

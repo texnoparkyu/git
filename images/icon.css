@@ -1,0 +1,7 @@
+i{
+    padding-top: 2px;
+}
+
+i.iconMail::before {
+    content: url("./mail.svg");
+}
