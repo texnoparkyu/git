@@ -152,12 +152,12 @@
                         </div>
                 </div>
     </div>
-
+<marquee behavior="Frams" direction="">
     <div class="showcase">
         <p>Великобритания Германия Франция Чехия Дания Финляндия </p>
         <p>Великобритания Германия Франция Чехия Дания Финляндия</p>
     </div>
-
+</marquee>
     <div class="yangiliklar">
         <p>Отзывы</p>
        <div class="grow"></div> 
@@ -200,6 +200,55 @@
         </div>
     </div>
    </div>
+
+   <script>
+    window.addEventListener("scroll",(event) => {
+        if(document.body.scrollTop > 600|| document.documentElement.scrollTop > 600) {
+            document.querySelector("nav").style.background = "#5200D99a"
+        }else{
+            document.querySelector("nav").style.background = "unset"
+        }
+    })
+</script>
+
+<footer>
+    <div class="ham">
+        <div class="chap">
+            <h4>Информационный центр</h4>
+            <p>О нас</p>
+            <p>Отзывы</p>
+            <p>Партнерам</p>
+        </div>
+    
+        <div class="orta">
+            <h4>Продукты</h4>
+            <p>Страховка для Шенгена</p>
+            <p>Страховка для России</p>
+            <p>Страховка в страны</p>
+            <p>Горнолыжная страховка</p>
+            <p>Годовая страховка</p>
+        </div>
+    
+        <div class="ong">
+            <h4>Документы</h4>
+            <p>Пользовательское соглашение</p>
+            <p>Политика обработки данных</p>
+            <p>Политика информационной безопасности     </p>
+        </div>
+<div class="yas">
+    <h4>Связаться с нами </h4>
+    <div class="f">
+        
+        <img src="./images/tiktok 1.png" alt="">
+        <img src="./images/telegram.png" alt="">
+        <img src="./images/instagram.png" alt="">
+        <img src="./images/whatsapp.png" alt="">
+    </div>
+</div>
+    </div>
+   
+
+</footer>
 
    
 </body>

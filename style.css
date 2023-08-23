@@ -44,6 +44,7 @@ nav {
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    backdrop-filter: blur(10px);
 }
 
 nav ul.links {
@@ -313,4 +314,15 @@ background: rgba(83, 0, 217, 0.137);
 
 .jadval p{
     width: 255px;
+}
+
+
+.ham{
+    padding: 200px 0;
+    display: flex;
+    gap: 129px;
+}
+
+ .f {
+gap: 31px;
 }
